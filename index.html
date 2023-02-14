@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Bike Rental</title>
+</head>
+
+<body id="homepage">
+    <!-- Header -->
+    <header>
+        <h1>Online Bike Rental Service</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="/contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Body content -->
+    <main>
+        <section id="about">
+            <h2>Welcome to Bike Rental service</h2>
+            <p>
+                We are a leading provider of online bike rental services, offering a
+                wide range of bikes for rent at affordable prices. Our goal is to make
+                bike rental easy and convenient for everyone.
+            </p>
+            <p>A bike rental system is a service that provides customers with the ability to rent bicycles for a short
+                period of time, typically for leisure or transportation purposes. The system is operated by a business
+                or government agency, and bikes can be rented from various locations, such as bike stations or stands.
+                Customers typically pay a fee based on the length of time they need the bike and can return it to any
+                location within the system network. The bike rental system can provide a convenient and eco-friendly way
+                to get around, and can be popular in urban areas with extensive cycling infrastructure.</p>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Bike Rental</li>
+                <li>Bike Maintenance</li>
+            </ul>
+        </section>
+
+        <section id="rule">
+            <h2>Rule and Regulation</h2>
+            <ol>
+                Bike rental rules and regulations can vary from one bike rental company to another, but there are some
+                common ones that are usually in place. Here are some of the most common rules and regulations for bike
+                rentals: <br><br>
+
+                <li>Age requirement: Most bike rental companies have an age requirement for renters, usually between 18
+                    and
+                    25 years old.</li>
+
+                <li> ID requirement: Renters are usually required to provide a valid government-issued ID, such as a
+                    driver's
+                    license or passport, to confirm their identity.</li>
+
+                <li> Helmet usage: Many bike rental companies require renters to wear a helmet while riding the bike.
+                    Some
+                    companies provide helmets with the rental, while others may require renters to bring their own.</li>
+
+                <li> Insurance coverage: Some bike rental companies provide insurance coverage for renters, while others
+                    may
+                    require renters to purchase additional insurance.</li>
+
+                <li> Bike usage: Renters are usually expected to use the bike for its intended purpose and to follow all
+                    traffic laws. They may also be required to return the bike in good condition and to notify the
+                    rental
+                    company if there are any issues with the bike.</li>
+
+                <li> Payment terms: Renters are usually required to pay for the rental upfront, and some companies may
+                    also
+                    require a security deposit.</li>
+
+                <li> Cancellation policy: Some bike rental companies may have a cancellation policy in place, with fees
+                    for
+                    cancelling or rescheduling a reservation.</li> <br>
+
+                These are just some of the common rules and regulations for bike rentals. It's important to check with
+                the specific bike rental company you're interested in to learn about their specific rules and
+                regulations.
+            </ol>
+        </section>
+
+        <section id="rent">
+            <h2>Rent a Bike</h2>
+            <form id="rform">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter Your Name" required />
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter Your Email" required />
+
+                <label for="age">Date of Birth:</label>
+                <input type="date" id="age" name="age" required />
+
+                <label for="number">Adhar Number:</label>
+                <input type="tel" id="number" name="number" placeholder="Enter Your Adhar Number" maxlength="12"
+                    required />
+
+                <label for="bike-model">Bike Model:</label>
+                <select id="bike-model" name="bike-model">
+                    <option value="mountain-bike">Mountain Bike</option>
+                    <option value="road-bike">Road Bike</option>
+                    <option value="city-bike">City Bike</option>
+                </select>
+
+                <label for="bike-name">Bike Name:</label>
+                <select id="bike-name" name="bike-name">
+                    <option value="KTM">KTM</option>
+                    <option value="Apache">Apache</option>
+                    <option value="Bullet">Bullet</option>
+                    <option value="Pulsar">Pulsar</option>
+                    <option value="Glamour">Glamour</option>
+                    <option value="Splender">Splender</option>
+                    <option value="Activa">Activa</option>
+                    <option value="Mestro">Mestro</option>
+                </select>
+
+                <label for="rental-period">Rental Period:</label>
+                <input type="number" id="rental-period" name="rental-period" required />
+
+                <input type="submit" value="Rent Now" />
+                <p id="rconform"></p>
+            </form>
+        </section>
+
+        <section id="Maintenance">
+            <h2>Book for Maintainance</h2>
+            <p>
+                The user is responsible for maintaining the bike while it is on the road including checking the engine
+                oil while travelling. Reporting any mechanical issues right away is advised. In the event that a
+                mechanical failure occurs while travelling as a result of improper routine maintenance, customers may be
+                held liable. <br>
+            </p>
+            <form id="mform">
+                <label for="m_name">Name:</label>
+                <input type="text" id="m_name" name="m_name" placeholder="Enter Your Name" required />
+
+                <label for="m_email">Email:</label>
+                <input type="email" id="m_email" name="m_email" placeholder="Enter Your Email" required />
+
+                <label for="m_bike-model">Bike Model:</label>
+                <select id="m_bike-model" name="m_bike-model">
+                    <option value="m_mountain-bike">Mountain Bike</option>
+                    <option value="m_road-bike">Road Bike</option>
+                    <option value="m_city-bike">City Bike</option>
+                </select>
+
+                <label for="m_bike-name">Bike Name:</label>
+                <select id="m_bike-name" name="m_bike-name">
+                    <option value="m_KTM">KTM</option>
+                    <option value="m_Apache">Apache</option>
+                    <option value="m_Bullet">Bullet</option>
+                    <option value="m_Pulsar">Pulsar</option>
+                    <option value="m_Glamour">Glamour</option>
+                    <option value="m_Splender">Splender</option>
+                    <option value="m_Activa">Activa</option>
+                    <option value="m_Mestro">Mestro</option>
+                </select>
+
+                <label for="m_bike-model">Problem Type:</label>
+                <select id="m_bike-model" name="m_bike-model">
+                    <option value="m_mountain-bike">Minor Fault</option>
+                    <option value="m_road-bike">Major Fault</option>
+                </select>
+                <label for="m_fault">Problem Description:</label>
+                <textarea name="m_fault" id="m_fault" cols="30" rows="10"></textarea>
+                <input type="submit" value="Book Now" />
+                <p id="mconform"></p>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <a href="#homepage" title="To Top"> ^ </a>
+        <p>&copy; Online Bike Rental service designed by Amit Kumar Raj</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
